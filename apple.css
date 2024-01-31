@@ -1,0 +1,306 @@
+ /*nav bar*/
+ .nav_bar {
+     border-radius: 5px 0px 0px 0px;
+     background-color: rgb(10, 10, 10);
+     line-height: 30px;
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     z-index: 1;
+     /* padding: 0px;
+     margin: 0px; */
+ }
+
+ /*nav bar links*/
+ .nav_bar>a {
+
+     color: gainsboro;
+     text-decoration: none;
+     padding-right: 20px;
+     font-size: small;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ /*--------------------------------------  Nav Bar End -------------------------------------------*/
+
+
+ /*nav bar 2*/
+ .nav_2 {
+     border-radius: 5px 0px 0px 0px;
+     background-color: rgb(10, 10, 10);
+     line-height: 50px;
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     z-index: 1;
+     display: none;
+     /* padding: 0px;
+    margin: 0px; */
+ }
+
+ /*nav bar links*/
+ .nav_2>a {
+
+     color: gainsboro;
+     text-decoration: none;
+     padding-right: 20px;
+     font-size: small;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ /*-------------------------------------------------------------*/
+
+
+
+
+
+ /*grid start*/
+ .grid_images {
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+ /* This proprty is applied on 1st 2nd and 3rd box of grid as a parent box of image card and text card  */
+ .image_1 {
+     height: 600px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     /* border: 2px solid red; */
+ }
+
+ .image_card {
+     width: 100%;
+     height: 600px;
+     /* border: 2px solid rgb(61, 192, 38);  */
+ }
+
+ .image_card>img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .text_card {
+     width: 20%px;
+     height: 30%;
+     position: absolute;
+     margin-bottom: 20px;
+     text-align: center;
+     font-family: sans-serif;
+     /* border: 2px solid rgb(219, 37, 110); */
+ }
+
+ h2,
+ h3 {
+     font-weight: 200;
+     color: black;
+ }
+
+ /* this styling is applied on all the link either it is in text card 1 text vard 2 and text card 3*/
+ a {
+     text-decoration: none;
+     color: rgb(50, 149, 230);
+     padding-left: 20px;
+ }
+
+ /*2nd grid box styling */
+ .text_card_2 {
+     min-width: 30%;
+     height: 30%;
+     position: absolute;
+     margin-bottom: 370px;
+     text-align: center;
+     font-family: sans-serif;
+     /* border: 2px solid rgb(210, 26, 26); */
+
+ }
+
+ h1 {
+     color: white;
+     font-size: 50px;
+     line-height: 5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .text_card_2>a>h2 {
+     font-weight: 200;
+     color: white;
+ }
+
+ /*2nd box of Grid*/
+ .text_card_3 {
+     width: 20%px;
+     height: 30%;
+     position: absolute;
+     margin-bottom: 350px;
+     text-align: center;
+     font-family: sans-serif;
+     /* border: 2px solid rgb(210, 26, 26); */
+
+ }
+
+ .text_card_3>a>h2 {
+
+     color: rgb(10, 10, 10);
+     font-size: 60px;
+     line-height: 5px;
+     font-family: serif;
+ }
+
+
+ /*double image grid box start*/
+ .double_image_grid {
+
+     display: grid;
+     grid-template-columns: 49.5% 49.5%;
+     column-gap: 1%;
+     row-gap: 5px;
+     width: 100%;
+     height: 600px;
+     /* border: 2px solid black; */
+
+ }
+
+ .image_card_2 {
+     /* border: 2px solid red; */
+     width: 100%;
+     height: 600px;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     position: relative;
+ }
+
+ .text-card_1_double_image_grid {
+     width: 400px;
+     height: 20%;
+     position: absolute;
+     margin-bottom: 40px;
+     text-align: center;
+     font-family: sans-serif;
+     color: black;
+     cursor: pointer;
+     /* border: 2px solid green; */
+
+ }
+
+ .text-card_1_double_image_grid>h1 {
+     color: black;
+     font-size: 40px;
+ }
+
+ .image_card_2>img {
+     width: 100%;
+     height: 600px;
+ }
+
+ /* this styling used for box 2nd and 3rd of 2 double image grid box*/
+ .text-card_2_double_image_grid {
+     width: 400px;
+     height: 18%;
+     position: absolute;
+     margin-bottom: 400px;
+     text-align: center;
+     font-family: sans-serif;
+     color: black;
+     cursor: pointer;
+     /* border: 2px solid green;  */
+ }
+
+ .color_white {
+     color: white;
+ }
+
+ .colo_black {
+     color: black;
+ }
+
+
+ .slider {
+     grid-column-start: 1;
+     grid-column-end: 3;
+     width: 100%;
+     height: 600px;
+     /* border: 2px solid red; */
+ }
+
+ .slider>img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .last_text {
+     grid-column-start: 1;
+     grid-column-end: 3;
+     width: 80%;
+     height: auto;
+     margin: 0px auto;
+     color: gray;
+     /* border: 2px solid rgb(9, 43, 25); */
+ }
+
+ .parent_2 {
+     grid-column-start: 1;
+     grid-column-end: 3;
+     margin: 0px 100px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     column-gap: 10px;
+     grid-auto-rows: auto;
+     /* border: 2px solid blue;*/
+
+ }
+
+ .box_1 {
+     padding: 20px;
+     cursor: pointer;
+     color: gray;
+     line-height: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* border: 2px solid brown; */
+ }
+
+ .last_text_hidden {
+     grid-column-start: 1;
+     grid-column-end: 3;
+     width: 100%;
+     text-align: center;
+     height: auto;
+     margin: 0px auto;
+     color: gray;
+     /* border: 2px solid rgb(9, 43, 25);  */
+     cursor: pointer;
+     display: none;
+ }
+
+ @media(max-width:1150px) {
+     .double_image_grid {
+         grid-template-columns: 1fr;
+     }
+
+     .image_card_2 {
+         grid-column: 1/ span 2;
+     }
+
+     .last_text_hidden {
+         display: block;
+     }
+
+     .parent_2 {
+         display: none;
+     }
+
+     .nav_bar {
+         display: none;
+     }
+
+     .nav_2 {
+         display: block;
+         display: flex;
+         justify-content: space-evenly;
+     }
+ }
